@@ -1,0 +1,110 @@
+
+
+============================== 2023-04-24 01:44:13.844722 | 1ad18c1b-6290-4153-afd3-70b7eea09e32 ==============================
+[0m01:44:13.844722 [info ] [MainThread]: Running with dbt=1.4.6
+[0m01:44:13.845815 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/will/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'project_name': 'first_project', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m01:44:13.845969 [debug] [MainThread]: Tracking: tracking
+[0m01:44:13.882172 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fce79ab0a30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fce79a6d460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fce79a85280>]}
+[0m01:44:13.883236 [info ] [MainThread]: Creating dbt configuration folder at /Users/will/.dbt
+[0m01:44:13.887339 [debug] [MainThread]: Starter project path: /Users/will/Documents/Documents - Will’s MacBook Pro/UVA/DS 5559 - Data Engineering/DS5559_dbt_lab/venv/lib/python3.9/site-packages/dbt/include/starter_project
+[0m01:48:36.244648 [info ] [MainThread]: Profile first_project written to /Users/will/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m01:48:36.254376 [info ] [MainThread]: 
+Your new dbt project "first_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m01:48:36.255851 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fce79a85280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fce79a7c850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fce8830bfa0>]}
+[0m01:48:36.257056 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-04-24 02:12:46.620089 | 28fcad39-fc09-48bc-973b-5865d7dd7c3e ==============================
+[0m02:12:46.620089 [info ] [MainThread]: Running with dbt=1.4.6
+[0m02:12:46.621291 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/will/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'config_dir': True, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m02:12:46.621461 [debug] [MainThread]: Tracking: tracking
+[0m02:12:46.654739 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9e79603850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9e7960d940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9e79638640>]}
+[0m02:12:46.655675 [info ] [MainThread]: To view your profiles.yml file, run:
+
+open /Users/will/.dbt
+[0m02:12:46.656000 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9e79603850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9e79638640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9e79638be0>]}
+[0m02:12:46.656190 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-04-24 02:16:08.047249 | ddf605f5-9707-4b8e-b206-47d1a4acaa40 ==============================
+[0m02:16:08.047249 [info ] [MainThread]: Running with dbt=1.4.6
+[0m02:16:08.048367 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/will/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'project_name': 'DS5559_LAB', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m02:16:08.048536 [debug] [MainThread]: Tracking: tracking
+[0m02:16:08.076605 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbe09746820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbe0974e910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbe09764430>]}
+[0m02:16:08.078704 [debug] [MainThread]: Starter project path: /Users/will/Documents/Documents - Will’s MacBook Pro/UVA/DS 5559 - Data Engineering/DS5559_dbt_lab/venv/lib/python3.9/site-packages/dbt/include/starter_project
+[0m02:16:29.699866 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbe09775f10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbde81800d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbde816dc70>]}
+[0m02:16:29.708045 [debug] [MainThread]: Flushing usage events
+[0m02:16:30.006579 [error] [MainThread]: Encountered an error:
+
+[0m02:16:30.012104 [error] [MainThread]: Traceback (most recent call last):
+  File "/Users/will/Documents/Documents - Will’s MacBook Pro/UVA/DS 5559 - Data Engineering/DS5559_dbt_lab/venv/lib/python3.9/site-packages/dbt/main.py", line 136, in main
+    results, succeeded = handle_and_check(args)
+  File "/Users/will/Documents/Documents - Will’s MacBook Pro/UVA/DS 5559 - Data Engineering/DS5559_dbt_lab/venv/lib/python3.9/site-packages/dbt/main.py", line 206, in handle_and_check
+    task, res = run_from_args(parsed)
+  File "/Users/will/Documents/Documents - Will’s MacBook Pro/UVA/DS 5559 - Data Engineering/DS5559_dbt_lab/venv/lib/python3.9/site-packages/dbt/main.py", line 253, in run_from_args
+    results = task.run()
+  File "/Users/will/Documents/Documents - Will’s MacBook Pro/UVA/DS 5559 - Data Engineering/DS5559_dbt_lab/venv/lib/python3.9/site-packages/dbt/task/init.py", line 305, in run
+    self.create_profile_from_target(adapter, profile_name=project_name)
+  File "/Users/will/Documents/Documents - Will’s MacBook Pro/UVA/DS 5559 - Data Engineering/DS5559_dbt_lab/venv/lib/python3.9/site-packages/dbt/task/init.py", line 180, in create_profile_from_target
+    self.create_profile_from_profile_template(profile_template, profile_name)
+  File "/Users/will/Documents/Documents - Will’s MacBook Pro/UVA/DS 5559 - Data Engineering/DS5559_dbt_lab/venv/lib/python3.9/site-packages/dbt/task/init.py", line 164, in create_profile_from_profile_template
+    target = self.generate_target_from_input(prompts, initial_target)
+  File "/Users/will/Documents/Documents - Will’s MacBook Pro/UVA/DS 5559 - Data Engineering/DS5559_dbt_lab/venv/lib/python3.9/site-packages/dbt/task/init.py", line 130, in generate_target_from_input
+    target[key] = click.prompt(
+  File "/Users/will/Documents/Documents - Will’s MacBook Pro/UVA/DS 5559 - Data Engineering/DS5559_dbt_lab/venv/lib/python3.9/site-packages/click/termui.py", line 166, in prompt
+    value = prompt_func(prompt)
+  File "/Users/will/Documents/Documents - Will’s MacBook Pro/UVA/DS 5559 - Data Engineering/DS5559_dbt_lab/venv/lib/python3.9/site-packages/click/termui.py", line 149, in prompt_func
+    raise Abort() from None
+click.exceptions.Abort
+
+
+
+============================== 2023-04-24 02:19:44.661432 | 09943ef5-3a50-4c00-9363-a297d965a7ba ==============================
+[0m02:19:44.661432 [info ] [MainThread]: Running with dbt=1.4.6
+[0m02:19:44.662633 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/will/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'project_name': 'DS5559_LAB', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m02:19:44.662809 [debug] [MainThread]: Tracking: tracking
+[0m02:19:44.705071 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff5da167c70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff5da16d790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff5da183580>]}
+[0m02:19:44.707362 [info ] [MainThread]: A project called DS5559_LAB already exists here.
+[0m02:19:44.707693 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff5da16d790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff5da19a580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff5da19a850>]}
+[0m02:19:44.707888 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-04-24 02:21:01.742312 | 3c95a1a8-c1ea-43c0-96d9-4c1c03ec377a ==============================
+[0m02:21:01.742312 [info ] [MainThread]: Running with dbt=1.4.6
+[0m02:21:01.743502 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/will/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'project_name': 'DS5559_LAB', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m02:21:01.743678 [debug] [MainThread]: Tracking: tracking
+[0m02:21:01.779794 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7d496fec70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7d49705790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7d4971b580>]}
+[0m02:21:01.782372 [debug] [MainThread]: Starter project path: /Users/will/Documents/Documents - Will’s MacBook Pro/UVA/DS 5559 - Data Engineering/DS5559_dbt_lab/venv/lib/python3.9/site-packages/dbt/include/starter_project
+[0m02:22:21.384767 [info ] [MainThread]: Profile DS5559_LAB written to /Users/will/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m02:22:21.390518 [info ] [MainThread]: 
+Your new dbt project "DS5559_LAB" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m02:22:21.392202 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7d49705790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7d496fe610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7d496fea60>]}
+[0m02:22:21.393458 [debug] [MainThread]: Flushing usage events
